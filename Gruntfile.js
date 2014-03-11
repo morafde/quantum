@@ -459,12 +459,12 @@ module.exports = function (grunt) {
   //  'concat',
    // 'uglify',
    // 'cssmin',
-    'sails-linker:prodJs',
-    'sails-linker:prodStyles',
-    'sails-linker:devTpl',
-    'sails-linker:prodJsJADE',
-    'sails-linker:prodStylesJADE',
-    'sails-linker:devTplJADE'
+  //  'sails-linker:prodJs',
+   // 'sails-linker:prodStyles',
+   // 'sails-linker:devTpl',
+  //  'sails-linker:prodJsJADE',
+  //  'sails-linker:prodStylesJADE',
+  //  'sails-linker:devTplJADE'
   ]);
 
   // When API files are changed:
