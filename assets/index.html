@@ -1,0 +1,83 @@
+<!doctype html>
+<html ng-app="quantum">
+  <head>
+    <!--
+        For demonstration purposes, the `title` is dynamically set here based on
+        your `sails.config.appName` to show that you can inject data into layouts
+        exactly the same way as with your other view templates.
+    -->
+    <title>Quantum Group</title>
+
+    <!-- Viewport mobile tag for sensible mobile support -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta charset="utf-8">
+    <!--
+
+      Stylesheets
+      ========================
+
+      You can link any CSS, LESS, or image files in your `assets` directory
+      as you would normally: using <link/> tags.
+      
+    -->
+      <link rel="stylesheet" href="linker/styles/bootstrap.css">
+      <link rel="stylesheet" href="linker/styles/font-awesome.css">
+      <link rel="stylesheet" href="linker/styles/animate.css">
+      <link rel="stylesheet" href="linker/styles/jquery.fancybox.css">
+      <link rel="stylesheet" href="linker/styles/flexslider.css">
+      <link rel="stylesheet" href="linker/vendors/parallax/css/parallax-slider.css">
+
+      <link rel="stylesheet" href="linker/vendors/layerslider/css/layerslider.css">
+      <link rel="stylesheet" href="linker/styles/project.css">
+
+      <script src="//maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+
+  </head>
+
+  <body  class="wp-theme-1 wp-theme-2">
+  <div class="wrapper lw">
+      <div data-ng-include="'linker/modules/layout/header.html'"></div>
+
+      <div ui-view autoscroll="false" class="shuffle-animation"></div>
+
+      <div data-ng-include="'linker/modules/layout/footer.html'"></div>
+
+  </div>
+
+    <!-- vendor scripts -->
+    <script type="text/javascript" src="linker/vendors/socket.io.js"></script>
+    <script type="text/javascript" src="linker/vendors/sails.io.js"></script>
+    <script type="text/javascript" src="linker/vendors/jquery.js"></script>
+  <script type="text/javascript" src="linker/vendors/jquery.flexslider.js"></script>
+    <script type="text/javascript" src="linker/vendors/angular.js"></script>
+  <script type="text/javascript" src="linker/vendors/angular-flexslider.js"></script>
+  <script type="text/javascript" src="linker/vendors/jquery.cookie.js"></script>
+  <script type="text/javascript" src="linker/vendors/jquery.easing.js"></script>
+  <script type="text/javascript" src="linker/vendors/parallax/js/modernizr.js"></script>
+  <script type="text/javascript" src="linker/vendors/parallax/js/jquery.cslider.js"></script>
+ <script type="text/javascript" src="linker/vendors/layerslider/js/greensock.js"></script>
+  <script type="text/javascript" src="linker/vendors/layerslider/js/layerTransition.js"></script>
+  <script type="text/javascript" src="linker/vendors/layerslider/js/layerPlugin.js"></script>
+
+
+    <!-- angular plugins --->
+  <script type="text/javascript" src="linker/plugins/angular-ui-router.js"></script>
+  <script type="text/javascript" src="linker/plugins/angular-animate.js"></script>
+
+  <script type="text/javascript" src="linker/plugins/angular-sails.js"></script>
+
+    <!-- bootstrapper -->
+    <script type="text/javascript" src="linker/app.js"></script>
+
+    <!-- common modules -->
+    <script type="text/javascript" src="linker/directives/layerSlider.js"></script>
+  <!--<script type="text/javascript" src="linker/directives/scrollTo.js"></script>-->
+    <!-- app files-->
+  <script type="text/javascript" src="linker/modules/layout/layout.js"></script>
+    <script type="text/javascript" src="linker/modules/home/home.js"></script>
+    <script type="text/javascript" src="linker/modules/about/about.js"></script>
+    <script type="text/javascript" src="linker/modules/contact/contact.js"></script>
+    <script type="text/javascript" src="linker/modules/services/services.js"></script>
+
+  </body>
+</html>
