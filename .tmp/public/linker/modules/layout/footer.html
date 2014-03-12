@@ -1,4 +1,4 @@
-<footer class="footer">
+<footer class="footer" data-ng-controller="FooterController">
     <div class="container">
         <div class="row">
             <div class="col-md-3">
@@ -56,7 +56,7 @@
         </div>
 
     </div>
-    <a ng-href  data-ng-click="alert('this was clicked')" id="toTop" style="display:inline">
+    <a ng-href  data-ng-click="toTop()" id="toTop" style="display:inline">
         <span id="toTopHover" style="opacity: 1"></span>To Top
     </a>
 </footer>
