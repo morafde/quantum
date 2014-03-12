@@ -11,7 +11,8 @@ angular.module('quantum',
             'quantum.home',
             'quantum.services',
             'quantum.directives',
-            'quantum.factories'
+            'quantum.factories',
+            'ui.bootstrap'
         ])
     .config(['$urlRouterProvider','$stateProvider',function($urlRouterProvider,$stateProvider){
         $urlRouterProvider.otherwise("/home");
