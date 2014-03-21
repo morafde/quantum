@@ -18,8 +18,8 @@ License URI: http://wrapbootstrap.com
 /*@import url(../assets/easy-pie-chart/easypiechart.css);*/
 /*@import url(../assets/timeline/timeline.css);*/
 body {
-    font-family: "PT Sans", sans-serif !important;
-    font-size: 13px;
+    font-family: Calisto MT !important;/* "PT Sans", sans-serif !important; */
+    font-size: 12px;
     line-height: 22px;
     font-weight: 300;
 }
@@ -336,6 +336,7 @@ body .ld {
 }
 .wp-theme-1 .navbar-wp .navbar-collapse, .wp-theme-1 .navbar-wp .navbar-form {
     border-color: #e7e7e7;
+    height:96px;
 }
 .wp-theme-1 .navbar-wp .navbar-nav>.dropdown>a:hover .caret, .wp-theme-1 .navbar-wp .navbar-nav>.dropdown>a:focus .caret {
     border-top-color: #FFF;
@@ -8178,12 +8179,12 @@ header {
 }
 header .navbar-brand {
     padding: 0 15px;
-    margin-top: 8px;
+    /*margin-top: 8px;*/
     border: 1px solid transparent;
     border-radius: 3px;
 }
 header .navbar-brand img {
-    height: 56px;
+    height: 96px;
 }
 header .navbar-fixed {
     width: 100%;
@@ -10300,6 +10301,7 @@ footer {
     padding-bottom: 20px;
     min-height: 30px;
     background: #232323;
+    background-image: url("../images/qfooter.png")
 }
 footer:before, footer:after {
     display: table;
@@ -10479,7 +10481,7 @@ footer .copyright {
         width: 50%}
 }@media (max-width:767px) {
     header .navbar-brand {
-        margin: 14px 0;
+        /*margin: 14px 0;*/
     }
     .navbar-wp .navbar-nav>li>a {
         color: #4c4c4c;
@@ -10729,3 +10731,17 @@ footer .copyright {
 }
 
 .top-buffer { margin-top:20px; }
+
+
+.navbar-nav > li > a {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    line-height: 42px;
+}
+
+@media (max-width: 767px) {
+    .navbar-nav > li > a {
+        line-height: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;}
+}
