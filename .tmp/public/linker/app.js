@@ -12,6 +12,7 @@ angular.module('quantum',
             'quantum.services',
             'quantum.directives',
             'quantum.factories',
+            'quantum.expressions',
             'ui.bootstrap'
         ])
     .config(['$urlRouterProvider','$stateProvider',function($urlRouterProvider,$stateProvider){
@@ -36,6 +37,11 @@ angular.module('quantum',
                 url:'/services',
                 templateUrl: 'linker/modules/services/services.html',
                 controller: 'ServicesController'
+            })
+            .state('expressions',{
+                url:'/expressions',
+                templateUrl:'linker/modules/Expressions/expressions.html',
+                controller:'ExpressionsController'
             });
 
     }]);
