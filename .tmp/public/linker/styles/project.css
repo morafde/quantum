@@ -10745,3 +10745,14 @@ footer .copyright {
         padding-top: 10px;
         padding-bottom: 10px;}
 }
+
+
+.row {
+    display: table;
+}
+
+.row [class*="col-"]{
+    float: none;
+    display: table-cell;
+    vertical-align: top;
+}
