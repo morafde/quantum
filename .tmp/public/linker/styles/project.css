@@ -10747,11 +10747,11 @@ footer .copyright {
 }
 
 
-.row {
+.special {
     display: table;
 }
 
-.row [class*="col-"]{
+.special [class*="col-"]{
     float: none;
     display: table-cell;
     vertical-align: top;
