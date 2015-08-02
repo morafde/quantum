@@ -138,7 +138,7 @@ body .ld {
     line-height: 22px;
 }
 .wp-theme-1 a {
-    color: #ffffff;
+    color: #616161;
     cursor: pointer;
 }
 .wp-theme-1 a:hover {
@@ -10744,19 +10744,4 @@ footer .copyright {
         line-height: 20px;
         padding-top: 10px;
         padding-bottom: 10px;}
-}
-
-
-.special {
-    display: table;
-}
-
-.special [class*="col-"]{
-    float: none;
-    display: table-cell;
-    vertical-align: top;
-}
-.footerLinks a {
-    color:#ffffff !important;
-    cursor:pointer;
 }
