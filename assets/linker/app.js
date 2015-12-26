@@ -32,6 +32,11 @@ angular.module('quantum',
                 templateUrl: 'linker/modules/about/about.html',
                 controller: 'AboutController'
             })
+            .state('expressions',{
+              url:'/expressions',
+              templateUrl:'linker/modules/expressions/expressions.html',
+              controller:'ExpressionsController'
+            })
             .state('services', {
                 url:'/services',
                 templateUrl: 'linker/modules/services/services.html',
