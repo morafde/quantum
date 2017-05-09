@@ -4,15 +4,15 @@
   "version": "1.0.0",
   "description": "a Sails application",
   "dependencies": {
-    "ejs": "^0.8.4",
-    "express": "^4.15.2",
-    "foobar": "^1.1.0",
-    "forever": "^0.11.1",
-    "grunt": "^0.4.5",
-    "grunt-cli": "^1.2.0",
-    "optimist": "^0.6.1",
-    "sails": "^0.12.13",
-    "sails-disk": "^0.9.3"
+    "ejs": "0.8.8",
+    "express": "4.15.2",
+    "foobar": "1.1.0",
+    "forever": "0.11.1",
+    "grunt": "0.4.5",
+    "grunt-cli": "1.2.0",
+    "optimist": "0.6.1",
+    "sails": "0.12.13",
+    "sails-disk": "0.9.3"
   },
   "engines": {
     "node": ">= 6.10.3",
@@ -20,7 +20,8 @@
   },
   "scripts": {
     "start": "forever start app.js",
-    "debug": "node debug app.js"
+    "debug": "node debug app.js",
+    "test": "grunt test"
   },
   "main": "app.js",
   "repository": {
